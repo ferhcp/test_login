@@ -18,7 +18,9 @@ function validForm() {
 
         if (user === validUser && pass === validPass) {
            
-            window.location.href = 'index.html';
+            alert('Login correcto!!');
+			window.location.href = 'index.html';
+			
         } else {
             alert('Usuario o contraseña incorrectos');
         }
